@@ -1,5 +1,5 @@
 ---
-- name: This sets up an httpd webserver
+- name: This sets up Apache on RHEL8
   hosts: all
   tasks:
   - name: Install apache packages 
